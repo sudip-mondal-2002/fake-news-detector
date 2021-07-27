@@ -5,5 +5,9 @@
   "main": "server.js",
   "repository": "https://github.com/sudip-mondal-2002/fake-news-detector.git",
   "author": "Team Hackers",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
