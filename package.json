@@ -1,0 +1,9 @@
+{
+  "name": "pravega-fakenewsdetector",
+  "version": "1.0.0",
+  "description": "This is a fake news detector. Submitting to pravega hackathon, conducted by IISC.",
+  "main": "server.js",
+  "repository": "https://github.com/sudip-mondal-2002/fake-news-detector.git",
+  "author": "Team Hackers",
+  "license": "MIT"
+}
