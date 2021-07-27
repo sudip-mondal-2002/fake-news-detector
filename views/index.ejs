@@ -26,9 +26,9 @@
     </div>
     <form class="homeform" action="/" method="POST">
         <h1>What's the news?</h1>
-        <input type="text" placeholder="Enter the title here" />
-        <textarea placeholder="Enter the news description here"></textarea>
-        <span style="color: <%=color%> ;"><%= Result %></span>
+        <input type="text" placeholder="Enter the title here" id="title" name="title" />
+        <textarea placeholder="Enter the news description here" id="description" name="description"></textarea>
+        <span style="color: red"><%= Result %></span>
         <button type="submit">Check</button>
         <hr />
         <a href="/teams">Meet our team</a>
