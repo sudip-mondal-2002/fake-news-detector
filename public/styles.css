@@ -125,7 +125,10 @@ form.back a:hover{
 }
 form.homeform {
     width: 30%;
-    margin: auto 35%;
+    min-width: 350px;
+    max-width: 100% !important;
+    left: 50%;
+    transform: translateX(-50%);
     height: 600px;
     background: #FFFFFF20;
     top: 100px;
@@ -201,4 +204,32 @@ form.homeform button {
 }
 .details{
     margin-top: 20px;
+}
+
+@media (max-width:833px){
+    .animated-area.teams{
+        height: 2800px;
+    }
+    .image-holder {
+        height: 850px;
+        margin-top: 70px;
+    }
+}
+@media (max-width:550px){
+    .animated-area.teams{
+        height: 2100px;
+    }
+    .image-holder {
+        height: 600px;
+        margin-top: 70px;
+    }
+}
+@media (max-width:400px){
+    .animated-area.teams{
+        height: 1800px;
+    }
+    .image-holder {
+        height: 500px;
+        margin-top: 70px;
+    }
 }
