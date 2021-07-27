@@ -8,18 +8,8 @@
     position: absolute;
 }
 
-.banner-text ul {
-    height: 50px;
-    float: right;
-    margin-right: 20px;
-}
-
-.banner-text ul li {
-    display: inline-block;
-    padding: 30px 15px;
-    text-transform: uppercase;
-    color: #FFF;
-    font-size: 20px;
+.banner-text.middle {
+    text-align: center;
 }
 
 .banner-text h1 {
@@ -111,59 +101,104 @@
         opacity: 1;
     }
 }
-
-form {
-    width: 30%;
-    margin: auto 35%;
-    height: 600px;
-    background: #FFFFFF20;
-    position: absolute;
-    top: 100px;
+form{
     z-index: 999;
-    border: 1px solid #FFF;
-    border-radius: 30px;
-    box-shadow: 0 0 6px 3px #ffffff, 0 0 10px 6px #ff00ff, 0 0 14px 9px #00ffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
-form * {
+form.back a{
+    margin: 30px;
+    color: #FFFFFFDD;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px;
+}
+form.back a:hover{
+    color: #FFFFFFAA;
+    font-size: 25px;
+    margin: 25px;
+}
+form.homeform {
+    width: 30%;
+    margin: auto 35%;
+    height: 600px;
+    background: #FFFFFF20;
+    top: 100px;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 3px #ffffff, 0 0 10px 6px #ff00ff, 0 0 14px 9px #00ffff;
+}
+
+form.homeform * {
     width: 80%;
     margin: 20px auto;
     text-align: center;
     color: #FFF;
 }
 
-form input {
+form.homeform input {
     height: 40px;
     border-radius: 10px;
     background: #00000020;
     border: 1px solid #FFF;
 }
 
-input::placeholder,textarea::placeholder {
+input::placeholder, textarea::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #FFF;
     opacity: 1;
     /* Firefox */
 }
 
-input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
     color: #FFF;
 }
 
-input::-ms-input-placeholder,textarea::-ms-input-placeholder {
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     /* Microsoft Edge */
     color: #FFF;
 }
 
-form textarea {
+form.homeform textarea {
     height: 100px;
     border: 1px solid #FFF;
     border-radius: 10px;
     padding: 10px;
     background: #00000020;
+}
+
+form.homeform button {
+    background-color: #00ddff;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    color: #000;
+}
+
+.image-holder {
+    margin-top: 100px;
+    border: 1px solid #000;
+    height: 600px;
+    padding: 40px;
+    background-color: #00000050;
+    z-index: 999;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #0af, 0 0 12px #0af, 0 0 16px #a0f, 0 0 20px #a0f, 0 0 30px #0af;
+}
+
+.image-holder img {
+    width: 100%;
+    border-radius: 10px;
+}
+.details{
+    margin-top: 20px;
 }

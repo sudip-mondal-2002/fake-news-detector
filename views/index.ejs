@@ -11,11 +11,6 @@
 
 <body>
     <div class="banner-text">
-        <ul>
-            <li> Home </li>
-            <li> Team </li>
-        </ul>
-
         <h1>Fake News Detector</h1>
     </div>
 
@@ -29,11 +24,14 @@
             <li></li>
         </ul>
     </div>
-    <form>
+    <form class="homeform" action="/" method="POST">
         <h1>What's the news?</h1>
         <input type="text" placeholder="Enter the title here" />
         <textarea placeholder="Enter the news description here"></textarea>
-        
+        <span style="color: <%=color%> ;"><%= Result %></span>
+        <button type="submit">Check</button>
+        <hr />
+        <a href="/teams">Meet our team</a>
     </form>
 </body>
 
