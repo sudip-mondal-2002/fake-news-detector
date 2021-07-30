@@ -22,8 +22,9 @@ on the article body. </p>
 ## Developer Instructions
 
 You need to have the following things installed
-* Node 12 LTS
-* Python 3.7 or higher
+
+* [Node 12 LTS](https://nodejs.org/en/blog/release/v12.22.4/)
+* [Python 3.7 or higher](https://www.python.org/downloads/)
 
 Once you are done with that follow the next instructions as stated
 
