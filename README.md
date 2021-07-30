@@ -60,6 +60,23 @@ Once you are done with that follow the next instructions as stated
 ```
 
 Now go to your browser and browse to http://localhost:3000
+## Brief overview of our work
+
+### Web Development flow
+
+<p align=justify> 
+  The project has a express-node server, having a multipage application in the frontend created using ejs. The pages are styled through vanilla CSS and bootstrap. We have connected our node.js backend with the machine learning model with child process module using the command line utilities.
+</p>
+
+### Machine Learning Framework
+![image](https://user-images.githubusercontent.com/74463091/127692674-66318eef-e17f-4d4e-81b7-de105e4db183.png)
+
+#### Tokenizer
+We used spaCy to segment the sentences into words, punctuation, etc. This is done according to rules specified by each language. The vocabulary is built according to the occurrence of the words in the corpus.
+
+#### Embeddings
+Glove Embeddings is used to convert the corpus into embeddings. The Glove embedding is trained on aggregated global word-word co-occurrence statistics from a corpus. The resulting representations showcase interesting linear substructures of the word vector space.
+
 ## Notebooks created during the project
 * LSTM using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODOflRAd-huvu5X-oAv7v24jXIrngCPC?usp=sharing)
 * LSTM using Pytorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-9tIgrjVIduPIrX71hbcDAjeGw6Tevq?usp=sharing)
