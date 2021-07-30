@@ -27,10 +27,11 @@
     </div>
     <form class="homeform" action="/" method="POST">
         <h1>What's the news?</h1>
-        <input type="text" placeholder="Enter the title here" id="title" name="title" />
-        <textarea placeholder="Enter the news description here" id="description" name="description"></textarea>
-        <span style="color: red; font-size:20px"><%= Result %></span>
-        <button type="submit">Check</button>
+        <input required type="text" placeholder="Enter the title here" id="title" name="title" />
+        <textarea required placeholder="Enter the news description here" id="description" name="description"></textarea>
+        <span class="result"><%= Result %></span>
+        <button type="submit">CHECK</button>
+        <span>The model is trained on news from the United States and hence is not exposed to the Indian news.</span>
         <hr />
         <a href="/teams">Meet our team</a>
     </form>

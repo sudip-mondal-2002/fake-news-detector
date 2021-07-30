@@ -6,6 +6,7 @@
 .banner-text {
     width: 100%;
     position: absolute;
+    text-align: center;
 }
 
 .banner-text.middle {
@@ -13,12 +14,18 @@
 }
 
 .banner-text h1 {
-    margin-left: 40px;
     margin-top: 20px;
     color: #FFF;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #0af, 0 0 12px #0af, 0 0 16px #0af, 0 0 20px #0af, 0 0 30px #0af;
+    text-shadow: 0 0 2px #fff,
+    0 0 1px #fff, 
+    0 0 2px #fff, 
+    0 0 4px #0af, 
+    0 0 8px #0af, 
+    0 0 16px #0af, 
+    0 0 20px #0af, 
+    0 0 24px #0af;
 }
 
 .animated-area {
@@ -101,7 +108,8 @@
         opacity: 1;
     }
 }
-form{
+
+form {
     z-index: 999;
     display: flex;
     flex-direction: column;
@@ -110,7 +118,7 @@ form{
     position: absolute;
 }
 
-form.back a{
+form.back a {
     margin: 30px;
     color: #FFFFFFDD;
     text-decoration: none;
@@ -118,11 +126,13 @@ form.back a{
     font-size: 20px;
     margin: 30px;
 }
-form.back a:hover{
+
+form.back a:hover {
     color: #FFFFFFAA;
     font-size: 25px;
     margin: 25px;
 }
+
 form.homeform {
     width: 30%;
     min-width: 350px;
@@ -177,13 +187,22 @@ form.homeform textarea {
 }
 
 form.homeform button {
-    background-color: #00ddff;
+    background-color: #00ffbb44;
     border: 1px solid #FFF;
     border-radius: 10px;
     width: 50%;
     height: 50px;
     font-size: 20px;
-    color: #000;
+    color: #fff;
+    font-family: serif;
+    text-shadow: 0 0 2px #fff, 
+    0 0 0.5px #000, 
+    0 0 0.5px #000, 
+    0 0 0.5px #0ee, 
+    0 0 0.5px #0ee, 
+    0 0 0.5px #00e, 
+    0 0 9px #0e0, 
+    0 0 10px #0e0
 }
 
 .image-holder {
@@ -202,12 +221,13 @@ form.homeform button {
     width: 100%;
     border-radius: 10px;
 }
-.details{
+
+.details {
     margin-top: 20px;
 }
 
-@media (max-width:833px){
-    .animated-area.teams{
+@media (max-width:833px) {
+    .animated-area.teams {
         height: 2800px;
     }
     .image-holder {
@@ -215,8 +235,9 @@ form.homeform button {
         margin-top: 70px;
     }
 }
-@media (max-width:550px){
-    .animated-area.teams{
+
+@media (max-width:550px) {
+    .animated-area.teams {
         height: 2100px;
     }
     .image-holder {
@@ -224,12 +245,26 @@ form.homeform button {
         margin-top: 70px;
     }
 }
-@media (max-width:400px){
-    .animated-area.teams{
+
+@media (max-width:400px) {
+    .animated-area.teams {
         height: 1800px;
     }
     .image-holder {
         height: 500px;
         margin-top: 70px;
     }
+}
+
+.result {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 2px #fff, 
+    0 0 0.5px #fff, 
+    0 0 0.5px #fff, 
+    0 0 0.5px #faa, 
+    0 0 0.5px #daa, 
+    0 0 0.5px #ffa, 
+    0 0 9px #faf, 
+    0 0 10px #faf
 }
