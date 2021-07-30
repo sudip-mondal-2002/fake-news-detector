@@ -64,6 +64,14 @@ Now go to your browser and browse to http://localhost:3000
 * LSTM using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODOflRAd-huvu5X-oAv7v24jXIrngCPC?usp=sharing)
 * LSTM using Pytorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-9tIgrjVIduPIrX71hbcDAjeGw6Tevq?usp=sharing)
 
+## Bibliography
+* Fakenews Dataset from [Kaggle](https://www.kaggle.com/c/fake-news)
+* <a id="1">[1]</a> 
+[GloVe Embeddings](https://nlp.stanford.edu/pubs/glove.pdf),  Stanford University (2014)
+* <a id="2">[2]</a> 
+[Recurrent Neural Networks](https://arxiv.org/pdf/1506.00019.pdf), Lipton et al. (2015)
+* <a id="3">[3]</a> 
+[Long Short-Term Memory](https://arxiv.org/pdf/1503.04069.pdf), Greff et al. (2015)
 
 ## Team Hackers
 * [Archish S](https://github.com/Xerefic)
