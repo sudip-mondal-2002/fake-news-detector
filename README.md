@@ -1,4 +1,4 @@
-# Fake News Detector
+# [Fake News Detector](https://teamhackers-fakenewsdetector.herokuapp.com/)
 This is the submission for Pravega'21, hackathon conducted by IISc bengalore.
 
 ## A Brief Overview
