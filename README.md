@@ -9,7 +9,7 @@ are misleading with no relevance to reality. Automated classification of a text
 article as misinformation or disinformation is the target of this project. In this
 presentation, we’ll describe our approach to reach the solution.</p>
 
-## Why us?
+## What's special in our approach
 <p align = "justify" > We see that most of the related works focus on improving
 the prediction quality by adding additional features. The
 fact is that these features are not always available, for
