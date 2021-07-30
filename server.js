@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     });
 })
 app.post("/", (req, res) => {
-    const process = spawn("python", ["./Machine-Learning/detector.py", req.body.title, req.body.description]);
+    const process = spawn("py", ["./detector.py", (req.body.title+" "+req.body.description)]);
     process.stdout.on('data', (data) => {
         res.render("index", {
             Result: (data.toString()),
