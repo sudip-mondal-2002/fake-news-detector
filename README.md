@@ -60,8 +60,8 @@ Once you are done with that follow the next instructions as stated
 
 Now go to your browser and browse to http://localhost:3000
 ## Notebooks created during the project
-* LSTM using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODOflRAd-huvu5X-oAv7v24jXIrngCPC?usp=sharing)
-* LSTM using Pytorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-9tIgrjVIduPIrX71hbcDAjeGw6Tevq?authuser=1)
+* LSTM using Tensorflow [![Open In Colab](https://colab.research.google.com/drive/1ODOflRAd-huvu5X-oAv7v24jXIrngCPC?usp=sharing)
+* LSTM using Pytorch [![Open In Colab](https://colab.research.google.com/drive/1V-9tIgrjVIduPIrX71hbcDAjeGw6Tevq?usp=sharing)
 
 
 ## Team Hackers
