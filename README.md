@@ -94,6 +94,10 @@ Now go to your browser and browse to (http://localhost:3000)
 * LSTM using Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODOflRAd-huvu5X-oAv7v24jXIrngCPC?usp=sharing)
 * LSTM using Pytorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-9tIgrjVIduPIrX71hbcDAjeGw6Tevq?usp=sharing)
 
+OR
+
+Check out the [GitHub Gists](https://gist.github.com/sudip-mondal-2002/67c735d0e1cbd768b698e47dd1404f58)
+
 ## Bibliography
 
 * Fakenews Dataset from [Kaggle](https://www.kaggle.com/c/fake-news)
