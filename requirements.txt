@@ -1,2 +1,2 @@
 ﻿numpy==1.19.5
-tensorflow-cpu==2.5.1
+tensorflow-cpu==2.5.2
